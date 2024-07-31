@@ -1,0 +1,554 @@
+<!-- Author : Raman Jain -->
+
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+   <head>
+      <!-- Mobile Specific Meta -->
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Favicon-->
+      <link rel="shortcut icon" href="img/fav.png">
+      <!-- Author Meta -->
+      <meta name="author" content="slive22">
+      <!-- Meta Description -->
+      <meta name="description" content="">
+      <!-- Meta Keyword -->
+      <meta name="keywords" content="">
+      <!-- meta character set -->
+      <meta charset="UTF-8">
+      <!-- Site Title -->
+      <title>Coffee</title>
+      <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+      <!--
+         CSS
+         ============================================= -->
+      <link rel="stylesheet" href="css/linearicons.css">
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/magnific-popup.css">
+      <link rel="stylesheet" href="css/nice-select.css">
+      <link rel="stylesheet" href="css/animate.min.css">
+      <link rel="stylesheet" href="css/owl.carousel.css">
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/input.css">
+      <script src="js/boomerang.js"></script>
+      <script src="js/rt.js"></script>
+      <script src="js/navtiming.js"></script>
+      <script src="js/guid.js"></script>
+      <script>
+         BOOMR.init({
+         	beacon_url: "https://http-inputs-emeacloud.splunkcloud.com/services/collector/raw?sourcetype=boomrang",
+         	beacon_auth_token: "Splunk 6cb23f6e-b478-4c72-af02-d6b5309b7bf5",
+         	beacon_type: "POST"
+         });
+         
+         BOOMR.addVar({ "ua_raw": navigator.userAgent });          // used in Splunk dashboards
+         BOOMR.addVar({ "guid": BOOMR.utils.getCookie("GUID") });  // uniquely identify this user
+         BOOMR.addVar({
+         	"pagename": "slsydney22_main"
+         });
+      </script>
+   </head>
+   <body>
+      <header id="header" id="home">
+         <div class="header-top">
+            <div class="container">
+            </div>
+         </div>
+         </div>
+         <div class="container">
+            <div class="row align-items-center justify-content-between d-flex">
+               
+               <!--<nav id="nav-menu-container">
+                  <ul>
+                    <li><a href="generic.html">Buttercup GO</a></li>
+                    <li><a href="elements.html">Share a fun photo</a></li>
+                  </ul>
+                  </li>
+                  </ul>
+                  </nav>
+                  -->
+               <!-- #nav-menu-container -->
+            </div>
+         </div>
+      </header>
+      
+     
+      <section class="menu-area section-gap" id="coffee">
+         <div class="container">
+            <div class="row d-flex justify-content-center">
+               <div class="menu-content pb-60 col-lg-10">
+
+                  <div class="title text-center">
+                    <div id="logo">
+                        <a href="index.html"><img style="max-height: 120px;" src="img/ciscosplunk.png" alt="" title="" /></a>
+                     </div>
+
+                     <h1 class="mb-10" style="font-weight: bold;"> Tech Connect Hackathon Rubric Tokyo </h1>
+                    <p>This is for the hackathon judges to provide their scores. Each panel should submit only one review per team.</p>
+                     <h2 style="color: #504648;     border-style:groove ; border-color: #363333; border-width: thin; border-radius: 20px;">"SCORING RUBRIC"</h2>
+                     
+                  </div>
+               </div>
+            </div>
+
+
+            <div class="row">
+               <form class="content__form slive-form" id="formsubmit">
+                  
+
+
+
+          
+
+                <div style="background-color: #363333; color: white;  margin-left: 5%;
+                margin-right: 5%;" class="single-menu">
+                    <div class="title-div justify-content-between d-flex">
+                       <h4 style="color: white;"> Team Name</h4>                 
+                    </div>
+                    <div class="title-div justify-content-between d-flex">
+                        <p style="color: white;"> If the team hasn't decided a name, use the team leader name here for mapping the members</p>                 
+                     </div>
+                   <div>
+                    <p style="color: white; width: 100%;">
+                        <label for="name"></label>
+                        <input id="name" style="width: 100%;" name="rubric.teamname" type="text" required=""> </p>
+                   </div>
+                 </div>
+
+
+
+                 <div style="background-color: #363333; color: white;  margin-left: 5%;
+                 margin-right: 5%;" class="single-menu">
+                    <div class="title-div justify-content-between d-flex">
+                       <h4 style="color: white;">Hack Or Project Name</h4>                 
+                    </div>
+                    <div class="title-div justify-content-between d-flex">
+                        <p style="color: white;"> Just a short title that is determined by the participants.</p>                 
+                     </div>
+                   <div>
+                    <p style="color: white; width: 100%;">
+                        <label for="name"></label>
+                        <input id="name" style="width: 100%;" name="rubric.hackname" type="text" required=""> </p>
+                   </div>
+                 </div>
+
+
+
+                 <div style="background-color: #363333; color: white;  margin-left: 5%;
+                 margin-right: 5%;" class="single-menu">
+                    <div class="title-div justify-content-between d-flex">
+                       <h4 style="color: white;"> Name of the Judges/Panel Name</h4>                 
+                    </div>
+                    <div class="title-div justify-content-between d-flex">
+                        <p style="color: white;"> Provide name of one of the judge representing the panel.</p>                 
+                     </div>
+                   <div>
+                    <p style="color: white; width: 100%;">
+                        <label for="name"></label>
+                        <input id="name" style="width: 100%;" name="rubric.judgename" type="text" required=""> </p>
+                   </div>
+                 </div>
+
+
+           
+
+
+
+
+
+
+<!-- question 1 ends here-->
+<div class="col-lg-4">
+    <div class="single-menu">
+       <div class="title-div justify-content-between d-flex">
+          <h4>Innovation & Creativity (25%) - Is the idea novel and has significant potential impact?</h4>
+          <p class="price float-right">
+             
+       </div>
+       <div class="container">
+          <div class="row">
+             <!-- RADIO BUTTONS BLOCK -->
+             <div class="col-xs-12 col-sm-6 col-md-5">
+                <div class="frb-group">
+                   <div class="frb frb-primary">
+                      <input type="radio" id="radio-button-0-0" name="innovation" value="1">
+                      <label for="radio-button-0-0">
+                      <span class="frb-title">Lacks originality and impact.</span>
+                      <span class="frb-description">Score level 1</span>
+                     
+                      </label>
+                   </div>
+                  
+                   <div class="frb frb-primary">
+                    <input type="radio" id="radio-button-0-1" name="innovation" value="2">
+                    <label for="radio-button-0-1">
+                    <span class="frb-title">Some originality and moderate impact.</span>
+                    <span class="frb-description">Score level 2</span>
+                   
+                    </label>
+                 </div>
+
+
+                 <div class="frb frb-primary">
+                    <input type="radio" id="radio-button-0-2" name="innovation" value="3">
+                    <label for="radio-button-0-2">
+                    <span class="frb-title">Good originality and impact.</span>
+                    <span class="frb-description">Score level 3</span>
+                   
+                    </label>
+                 </div>
+
+                 <div class="frb frb-primary">
+                    <input type="radio" id="radio-button-0-3" name="innovation" value="4">
+                    <label for="radio-button-0-3">
+                    <span class="frb-title">Highly original with significant impact.</span>
+                    <span class="frb-description">Score level 4</span>
+                   
+                    </label>
+                 </div>
+                   
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <!-- question 1 starts here-->
+
+
+
+
+
+
+
+<!-- question 1 ends here-->
+<div class="col-lg-4">
+    <div class="single-menu">
+       <div class="title-div justify-content-between d-flex">
+          <h4>Collaboration & Execution (25%) - How well did the team collaborate and plan?</h4>
+          <p class="price float-right">
+             
+       </div>
+       <div class="container">
+          <div class="row">
+             <!-- RADIO BUTTONS BLOCK -->
+             <div class="col-xs-12 col-sm-6 col-md-5">
+                <div class="frb-group">
+                   <div class="frb frb-primary">
+                      <input type="radio" id="radio-button-111-0" name="teamwork" value="1">
+                      <label for="radio-button-111-0">
+                      <span class="frb-title">Poor teamwork and planning</span>
+                      <span class="frb-description">Score level 1</span>
+                     
+                      </label>
+                   </div>
+                  
+                   <div class="frb frb-primary">
+                    <input type="radio" id="radio-button-111-1" name="teamwork" value="2">
+                    <label for="radio-button-111-1">
+                    <span class="frb-title">Fair teamwork and planning</span>
+                    <span class="frb-description">Score level 2</span>
+                   
+                    </label>
+                 </div>
+
+
+                 <div class="frb frb-primary">
+                    <input type="radio" id="radio-button-111-2" name="teamwork" value="3">
+                    <label for="radio-button-111-2">
+                    <span class="frb-title">Good teamwork and planning</span>
+                    <span class="frb-description">Score level 3</span>
+                   
+                    </label>
+                 </div>
+
+                 <div class="frb frb-primary">
+                    <input type="radio" id="radio-button-111-3" name="teamwork" value="4">
+                    <label for="radio-button-111-3">
+                    <span class="frb-title">Excellent teamwork and planning</span>
+                    <span class="frb-description">Score level 4</span>
+                   
+                    </label>
+                 </div>
+                   
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <!-- question 1 starts here-->
+
+
+
+
+
+
+<!-- question 1 ends here-->
+<div class="col-lg-4">
+    <div class="single-menu">
+       <div class="title-div justify-content-between d-flex">
+          <h4>Presentation & Demonstration (25%) - Were the project and lessons learned clearly communicated?</h4>
+          <p class="price float-right">
+             
+       </div>
+       <div class="container">
+          <div class="row">
+             <!-- RADIO BUTTONS BLOCK -->
+             <div class="col-xs-12 col-sm-6 col-md-5">
+                <div class="frb-group">
+                   <div class="frb frb-primary">
+                      <input type="radio" id="radio-button-112-0" name="presentation" value="1">
+                      <label for="radio-button-112-0">
+                      <span class="frb-title">Poor communication and clarity</span>
+                      <span class="frb-description">Score level 1</span>
+                     
+                      </label>
+                   </div>
+                  
+                   <div class="frb frb-primary">
+                    <input type="radio" id="radio-button-112-1" name="presentation" value="2">
+                    <label for="radio-button-112-1">
+                    <span class="frb-title">Fair communication and clarity</span>
+                    <span class="frb-description">Score level 2</span>
+                   
+                    </label>
+                 </div>
+
+
+                 <div class="frb frb-primary">
+                    <input type="radio" id="radio-button-112-2" name="presentation" value="3">
+                    <label for="radio-button-112-2">
+                    <span class="frb-title">Good communication and clarity</span>
+                    <span class="frb-description">Score level 3</span>
+                   
+                    </label>
+                 </div>
+
+                 <div class="frb frb-primary">
+                    <input type="radio" id="radio-button-112-3" name="presentation" value="4">
+                    <label for="radio-button-112-3">
+                    <span class="frb-title">Excellent communication and clarity</span>
+                    <span class="frb-description">Score level 4</span>
+                   
+                    </label>
+                 </div>
+                   
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <!-- question 1 starts here-->
+
+
+
+
+<!-- question 1 ends here-->
+<div class="col-lg-4">
+    <div class="single-menu">
+       <div class="title-div justify-content-between d-flex">
+          <h4>WOW Factor (25%) - Impressiveness: Is the project buzz-worthy and exciting?</h4>
+          <p class="price float-right">
+             
+       </div>
+       <div class="container">
+          <div class="row">
+             <!-- RADIO BUTTONS BLOCK -->
+             <div class="col-xs-12 col-sm-6 col-md-5">
+                <div class="frb-group">
+                   <div class="frb frb-primary">
+                      <input type="radio" id="radio-button-113-0" name="wow" value="1">
+                      <label for="radio-button-113-0">
+                      <span class="frb-title">Not impressive or exciting</span>
+                      <span class="frb-description">Score level 1</span>
+                     
+                      </label>
+                   </div>
+                  
+                   <div class="frb frb-primary">
+                    <input type="radio" id="radio-button-113-1" name="wow" value="2">
+                    <label for="radio-button-113-1">
+                    <span class="frb-title">Somewhat impressive and exciting</span>
+                    <span class="frb-description">Score level 2</span>
+                   
+                    </label>
+                 </div>
+
+
+                 <div class="frb frb-primary">
+                    <input type="radio" id="radio-button-113-2" name="wow" value="3">
+                    <label for="radio-button-113-2">
+                    <span class="frb-title">Impressive and exciting</span>
+                    <span class="frb-description">Score level 3</span>
+                   
+                    </label>
+                 </div>
+
+                 <div class="frb frb-primary">
+                    <input type="radio" id="radio-button-113-3" name="wow" value="4">
+                    <label for="radio-button-113-3">
+                    <span class="frb-title">Extremely impressive and highly exciting</span>
+                    <span class="frb-description">Score level 4</span>
+                   
+                    </label>
+                 </div>
+                   
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <!-- question 1 starts here-->
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                  
+                
+
+                  
+                  <!-- question 1 starts here-->
+                  <div class="col-lg-4">
+                     <div class="single-menu">
+                        <div class="title-div justify-content-between d-flex">
+                           <h4>Checking overall sentiments</h4>
+                          
+                           <p class="price float-right">
+                              <i style="
+                                 color: #090001;" class="fa fa-heartbeat fa-2x" aria-hidden="true"></i>
+                           </p>
+                        </div>
+                        <p>
+                           <label for="vol">What are your overall feelings about this project?</label>
+                           <div class="container">
+                            <div class="row">
+                               <!-- RADIO BUTTONS BLOCK -->
+                               <div class="col-xs-12 col-sm-6 col-md-5">
+                                  <div class="frb-group">
+                                     <div class="frb frb-primary">
+                                        <input type="radio" id="radio-button-10-0" name="sentiments" value="verynegative">
+                                        <label for="radio-button-10-0">
+                                        <span class="frb-title">Oh no, this is a trainwreck!</span>
+                                       
+                                        </span>
+                                        
+                                        </label>
+                                     </div>
+                                     <div class="frb frb-primary">
+                                        <input type="radio" id="radio-button-10-1" name="sentiments" value="negative">
+                                        <label for="radio-button-10-1">
+                                        <span class="frb-title">Eh, they just missed the mark!</span>
+                                       
+                                        
+                                        </label>
+                                     </div>
+                                     <div class="frb frb-primary">
+                                        <input type="radio" id="radio-button-10-2" name="sentiments" value="neutral">
+                                        <label for="radio-button-10-2">
+                                        <span class="frb-title">It is just OK, things could have been better!</span>
+                                      
+                                        
+                                        </label>
+                                     </div>
+                                     <div class="frb frb-primary">
+                                        <input type="radio" id="radio-button-10-3" name="sentiments" value="positive">
+                                        <label for="radio-button-10-3">
+                                        <span class="frb-title">Pretty happy and they have done a lot!</span>
+                                        
+                                        </label>
+                                     </div>
+
+                                     <div class="frb frb-primary">
+                                        <input type="radio" id="radio-button-10-4" name="sentiments" value="verypositive">
+                                        <label for="radio-button-10-4">
+                                        <span class="frb-title">They are ready to throw a party!</span>
+                                        
+                                        
+                                        </label>
+                                     </div>
+
+
+                                  </div>
+                               </div>
+                            </div>
+                        </p>
+                     </div>
+                  </div>
+                  <!-- question 1 ends here-->
+
+
+                
+
+                  
+
+                  
+                  
+
+
+
+
+
+
+
+
+
+
+
+                 
+                  
+                  
+                 
+            </div>
+            <!-- question 1 ends here-->
+         </div>
+         <!-- Submit panel starts here -->
+         <div id="panel_submit" style="display: flex;
+            justify-content: center;
+            align-items: center;" class="form-style-sections">
+         <input name="formname" type="hidden" value="progress_tokyo_hackathon" />
+         <button style="
+            border: 1px solid transparent;
+            padding-left: 40px;
+            padding-right: 40px;
+            border-radius: 50px;
+            " class="btn btn-success complete btn-lg" id="upload" style="display: block;">Complete</button>
+         </div>
+         <!-- Submit panel ends here -->
+      </section>
+      <!-- End menu Area -->
+      </form>
+      <script src="js/vendor/jquery-2.2.4.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+         crossorigin="anonymous"></script>
+      <script src="js/vendor/bootstrap.min.js"></script>
+      <script type="text/javascript"
+         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+      <script src="js/easing.min.js"></script>
+      <script src="js/hoverIntent.js"></script>
+      <script src="js/superfish.min.js"></script>
+      <script src="js/jquery.ajaxchimp.min.js"></script>
+      <script src="js/jquery.magnific-popup.min.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/jquery.sticky.js"></script>
+      <script src="js/jquery.nice-select.min.js"></script>
+      <script src="js/parallax.min.js"></script>
+      <script src="js/waypoints.min.js"></script>
+      <script src="js/jquery.counterup.min.js"></script>
+      <script src="js/mail-script.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/formsubmit.js"></script>
+   </body>
+</html>
