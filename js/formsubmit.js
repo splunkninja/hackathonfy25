@@ -161,7 +161,7 @@ const handleFormSubmit = event =>
         },
        contentType: 'text/plain',
         data: cdata,
-        success: function (msg)
+      success: function (msg)
         {
             $(".complete").html("Completed").prop("disabled", true);
             window.setTimeout(function ()
@@ -171,13 +171,18 @@ const handleFormSubmit = event =>
 
 
         },
-        error: function ()
-        {
-            $(".complete").html("Try again");
-            $(".complete").prop("disabled", false);
-        }
-    }); 
-};
+
+
+
+
+
+                error: function ()
+                {
+                    $(".complete").html("Try again");
+                    $(".complete").prop("disabled", false);
+                }
+            }); 
+        };
 
 function create_UUID() {
     var dt = new Date().getTime();

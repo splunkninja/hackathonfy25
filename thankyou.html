@@ -46,6 +46,46 @@
         <br>
         <br>
         <img  style=" max-width: 320px;" src="img/ciscowhite.png" alt="" title="" />
+
+
+
+
+
+		<button style="  height: 50;
+		width: 100%;
+		font-size: xx-large;
+		font-weight: 900;" onclick="goBackAndRefresh()">Start Again</button>
+
+		<script>
+		function goBackAndRefresh() {
+			window.history.back(); // Go to the previous page
+			setTimeout(function() {
+				// Reload the previous page to refresh data and clear form inputs
+				window.history.go(-1); // Navigate back one more time
+				setTimeout(function() {
+					window.location.href = window.location.href + '?clear=true';
+				}, 100);
+			}, 100); // Short delay to ensure the previous page is loaded before refreshing
+		}
+		
+		// This script clears form inputs if the "clear" parameter is present in the URL
+		window.onload = function() {
+			const urlParams = new URLSearchParams(window.location.search);
+			if (urlParams.has('clear')) {
+				const forms = document.querySelectorAll('form');
+				forms.forEach(form => {
+					form.reset(); // Clear all form inputs
+				});
+			}
+		};
+		</script>
+		
+
+
+
+
+
+
     </div>	
 </body>
 </html>
